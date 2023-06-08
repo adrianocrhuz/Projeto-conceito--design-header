@@ -66,6 +66,7 @@ small {
     margin-top: 30px;
 }
 @media (max-width: 480px) {
+    /*max-width para tela menores que a resolução 480px*/
     .home {
         padding: 15px 3%;
     }
@@ -85,4 +86,17 @@ small {
         color: #D9B79A;
     }
 }
-        
+@media (max-width: 700px) {
+    /* max-width para telas menores que a resolução 700px*/
+    .home {
+        padding: 7px 3%;
+    }
+    .home-text h1 {
+        font-size: 25px;
+    }
+    small {
+        font-size: 15px;
+        color: #D9B79A;
+    }
+
+}     
