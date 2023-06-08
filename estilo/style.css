@@ -91,6 +91,10 @@ small {
     .home {
         padding: 7px 3%;
     }
+    .navbar img {
+        width: 30%;
+        height: auto;
+    }
     .home-text h1 {
         font-size: 25px;
     }
